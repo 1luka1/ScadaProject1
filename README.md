@@ -1,2 +1,2 @@
 # ScadaProject1
-Projektni zadatak
+Projektni zadatak - Luka Tomic PR22/2021
