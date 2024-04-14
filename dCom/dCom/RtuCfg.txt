@@ -1,0 +1,9 @@
+STA 89
+TCP 54373
+
+DO_REG 2 3800 0 0 1 0 DO @PrekidaciSemafora 2
+DO_REG 2 3802 0 0 1 0 DO @PrekidaciUlicneRasvete 2
+DO_REG 1 3804 0 0 1 0 DO @PrekidacTrepcegSvetla 2
+IN_REG 1 3500 0 0 4095 2000 AI @SenzorDaljine 4
+IN_REG 1 3501 0 0 4095 2000 AI @SenzorSvetlosti 4
+DI_REG 1 3900 0 0 1 0 DI @KontaktniSenzor 2
